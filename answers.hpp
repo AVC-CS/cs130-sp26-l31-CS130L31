@@ -14,22 +14,22 @@
 // Q1 (main1.cpp, line 24-25): After getRefStruct().age = 21; what is s.age?
 //   1) 19   2) 20   3) 21   4) Undefined behavior
 // TODO: enter your answer (1-4)
-const int Q1 = 3;
+const int Q1 = 0;
 
 // Q2 (main2.cpp, line 13-15): After getRefNum(num) = 100; what is num?
 //   1) 10   2) 100   3) 0   4) Undefined behavior
 // TODO: enter your answer (1-4)
-const int Q2 = 2;
+const int Q2 = 0;
 
 // Q3 (main3.cpp, line 28-32): After str = "World"; (line 31) what is ms.strvalue?
 //   1) World   2) Hello   3) ""   4) Undefined behavior
 // TODO: enter your answer (1-4)
-const int Q3 = 2;
+const int Q3 = 0;
 
 // Q4 (main4.cpp, line 17-20): After changeStruct1(ms); what is ms.value?
 //   1) 100   2) 200   3) 300   4) 400
 // TODO: enter your answer (1-4)
-const int Q4 = 1;
+const int Q4 = 0;
 
 // Q5 (main4.cpp, line 34-37): Why does changeStruct1(ms) NOT change ms?
 //   1) It passes by value (copy)
@@ -37,7 +37,7 @@ const int Q4 = 1;
 //   3) It passes by pointer
 //   4) The struct is const
 // TODO: enter your answer (1-4)
-const int Q5 = 1;
+const int Q5 = 0;
 
 // Q6 (main3.cpp, line 28-36): Why does str = "World" (line 31) NOT change ms.strvalue,
 //   but strRef = "World" (line 35) DOES change it?
@@ -46,7 +46,7 @@ const int Q5 = 1;
 //   3) Both are copies but strRef uses move semantics
 //   4) str points to a temporary object
 // TODO: enter your answer (1-4)
-const int Q6 = 1;
+const int Q6 = 0;
 
 // ============================================================
 // Part B — Coding
@@ -55,17 +55,11 @@ const int Q6 = 1;
 // Swap two integers using references
 void swapByRef(int &a, int &b) {
     // TODO: Swap the values of a and b using references
-    int temp = a;
-    a = b;
-    b = temp;
 }
 
 // Swap two integers using pointers
 void swapByPtr(int *a, int *b) {
     // TODO: Swap the values of a and b using pointers
-    int temp = *a;
-    *a = *b;
-    *b = temp;
 }
 
 #endif
