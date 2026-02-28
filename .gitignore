@@ -1,0 +1,9 @@
+# Compiled binaries
+programtest
+main
+a.out
+*.o
+*.exe
+
+# macOS
+.DS_Store
